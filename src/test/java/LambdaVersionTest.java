@@ -39,7 +39,7 @@ public class LambdaVersionTest {
 
     @Test
     public void annotatedStepsTest() {
-        WebStepsTest steps = new WebStepsTest();
+        WebSteps steps = new WebSteps();
         steps.openMainPage();
         steps.searchForRepository(REPOSITORY);
         steps.openRepositoryPage(REPOSITORY);

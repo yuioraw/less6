@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class WebStepsTest {
+public class WebSteps {
 
     @Step("Открываем главную страницу")
     public void openMainPage() {
